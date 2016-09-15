@@ -1,0 +1,16 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "boards";
+
+body {
+	background-image: url("bb01.jpg");
+	background-size: cover;
+}
+
+.jumbotron {
+	padding: 10px;
+	background-color: darkgrey;
+	color: white;
+	border: 1px solid black;
+}
+

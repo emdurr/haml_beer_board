@@ -1,0 +1,12 @@
+%h1.text-center 
+	Lists For
+	= @board.name
+%hr
+
+#link-container.container
+	= link_to 'Boards', boards_path
+
+%hr
+
+#lists-container.container
+	= react_component('Lists', lists: @lists, board: @board)
